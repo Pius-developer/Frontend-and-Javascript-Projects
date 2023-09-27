@@ -13,10 +13,7 @@ const submitButton = document.querySelector(".button");
 
 // Variable to store generated captcha
 let captchaText = null;
-
-
 // Funtion to generate Captcha
-
 const generateCaptcha = () => {
    
    const randomString = Math.random().tostring(36).substring(2, 7);
